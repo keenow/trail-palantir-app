@@ -1,4 +1,5 @@
 import { createServiceClient } from "@/lib/supabase"
+export const dynamic = "force-dynamic"
 import APGrid from "@/components/APGrid"
 import { formatKST } from "@/lib/utils"
 

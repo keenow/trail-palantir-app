@@ -1,4 +1,5 @@
 import { createServiceClient } from "@/lib/supabase"
+export const dynamic = "force-dynamic"
 import { formatKST, formatTime } from "@/lib/utils"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"

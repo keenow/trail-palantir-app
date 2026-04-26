@@ -1,4 +1,5 @@
 import { createServiceClient } from "@/lib/supabase"
+export const dynamic = "force-dynamic"
 import { formatKST } from "@/lib/utils"
 
 const ALERT_LABELS: Record<string, string> = {
